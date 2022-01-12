@@ -16,6 +16,7 @@ body {
 
 .wrapper {
     width: 550px;
+    height: 660px;
     background-color: #ffffff;
 }
 
@@ -39,4 +40,69 @@ nav > img {
 
 nav > h1 {
     font-size: 15px;
+}
+
+
+/* cards */
+
+.card {
+    width: 471px;
+    height: 168px;
+    display: flex;
+    color: #2B283A;
+    margin: 25px auto;
+    background-color: #ffffff;
+}
+
+.card--image {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.card--infos {
+    margin-left: 14px;
+}
+
+.card--header {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.card--pin {
+    width: 7px;
+    height: 9px;
+}
+
+.card--location {
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+}
+
+.card--googlemaps {
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.card--googlemaps:hover {
+    font-weight: bold;
+    color: #2B283A;
+}
+
+.card--title {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0px;
+}
+
+.card--date {
+    font-weight: bold;
+}
+
+.card--text, .card--date, .card--googlemaps, .card--location {
+    font-size: 10.24px;
+    line-height: 12px;
 }

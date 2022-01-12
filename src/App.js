@@ -9,7 +9,7 @@ export default function App() {
     console.log(data)
     const cards = data.map(item => {
         return (
-            <Card 
+            <Card
                 key={item.id}
                 {...item}
             />
@@ -19,7 +19,9 @@ export default function App() {
     return (
         <div className="wrapper">
             <Header />
-            {cards}
+            <section className="card-wrapper">
+                {cards}
+            </section>
         </div>
     )
 }
